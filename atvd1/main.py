@@ -1011,4 +1011,4 @@ def extrair(linha):
     return num
 numeros = [extrair(linha) for linha in calibration_data]
 soma_total = sum(numeros)
-print("A soma dos números identificados na calibração é:", soma_total)
+print("A soma dos números é:", soma_total)
